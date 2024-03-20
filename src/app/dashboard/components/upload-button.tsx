@@ -89,14 +89,14 @@ export function UploadButton() {
       toast({
         variant: "success",
         title: "File Uploaded",
-        description: "Now everyone can view your file",
+        description: "File successfully uploaded!",
       });
     } catch (err) {
       console.log(err)
       toast({
         variant: "destructive",
         title: "Something went wrong",
-        description: "Your file could not be uploaded, try again later",
+        description: "Your file could not be uploaded. We only accept PNG, PDF and CSV files. ",
       });
     }
   }
