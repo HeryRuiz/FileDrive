@@ -1,8 +1,11 @@
 "use client";
-import { SignInButton, SignOutButton, SignedIn, useSession } from "@clerk/nextjs";
+import { Button } from "@/components/ui/button";
+import { SignInButton, SignOutButton, SignedIn } from "@clerk/nextjs";
+import { useMutation } from "convex/react";
+import { api } from "../../convex/_generated/api";
 
 export default function Home() {
-  const session = useSession();
+const createFile = useMutation(api.files.createFile)
   return (
     <>
       <SignedIn>
@@ -11,6 +14,10 @@ export default function Home() {
       </SignedIn>
       <div>Always visible</div>
       <SignInButton mode="modal" />
+
+      <Button onClick={()=>createFile({
+        name: "hello",
+      })}></Button>
     </>
   );
 }
