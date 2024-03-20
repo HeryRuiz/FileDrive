@@ -18,15 +18,11 @@ export function Header() {
           <Image src="/logo.png" width="50" height="50" alt="file drive logo" />
           FileDrive
         </Link>
-
-        <SignedIn>
-          <Button variant={"outline"}>
-            <Link href="/dashboard/files">Your Files</Link>
-          </Button>
-        </SignedIn>
-
         <div className="flex gap-2">
-          <OrganizationSwitcher />
+          <div className="hidden md:block">
+            <OrganizationSwitcher />
+          </div>
+
           <UserButton />
           <SignedOut>
             <SignInButton>
