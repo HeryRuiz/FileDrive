@@ -2,9 +2,9 @@ import { httpRouter } from "convex/server";
 
 import { internal } from "./_generated/api";
 import { httpAction } from "./_generated/server";
-const convexSiteUrl = process.env.NEXT_PUBLIC_CONVEX_URL;
 const http = httpRouter();
-
+const siteUrl =
+  process.env.CLERK_URL || "https://loving-bullfrog-56.clerk.accounts.dev";
 http.route({
   path: "/clerk",
   method: "POST",
@@ -68,6 +68,5 @@ http.route({
     }
   }),
 });
-
 
 export default http;
