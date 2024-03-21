@@ -82,9 +82,7 @@ export function FileCardActions({
         </DropdownMenuTrigger>
         <DropdownMenuContent>
           <DropdownMenuItem
-            onClick={() => {
-              window.open(getFileUrl(file.fileId), "_blank");
-            }}
+          
             className="flex gap-1 items-center cursor-pointer"
           >
             <FileIcon className="w-4 h-4" /> Download
@@ -147,8 +145,4 @@ export function FileCardActions({
       </DropdownMenu>
     </>
   );
-}
-
-export function getFileUrl(fileId: Id<"_storage">): string {
-  return `${process.env.NEXT_PUBLIC_CONVEX_URL}/api/storage/${fileId}`;
 }
