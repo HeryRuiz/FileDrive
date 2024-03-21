@@ -2,7 +2,7 @@
 
 <h2>About the project</h2>
 
-<p>The project successfully integrated the Coingecko API to enrich user experience with real-time data on the top 50 cryptocurrencies. State management techniques were applied in React to boost application performance and user interactivity. Additionally, strategies like lazy loading for images and other optimization techniques were incorporated to enhance loading times and overall user experience. These efforts collectively aimed to create a more seamless and responsive platform for users interacting with cryptocurrency data.
+<p>File Drive is a modern file management application designed for seamless storage and organization of digital assets. Developed with Convex for backend stability and Clerk for streamlined authentication, this platform prioritizes security and accessibility. Powered by Next.js, TypeScript, and HTML, File Drive offers dynamic interfaces, optimizing user interaction and experience. Whether for individual or organizational use, this innovative solution provides secure and efficient file storage, simplifying data management tasks with ease.
 
 </p>
 
