@@ -11,7 +11,7 @@ export default authMiddleware({
     return intlMiddleware(req);
   },
 
-  publicRoutes: ["/"],
+  publicRoutes: ["/", "/en"],
 });
 
 export const config = {
