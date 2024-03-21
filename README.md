@@ -6,7 +6,7 @@
 
 </p>
 
-👉 Live Demo: <a href='https://youcoin.vercel.app'>YouCoin Demo</a>
+👉 Live Demo: <a href='https://filedrives.vercel.app'>File Drive Demo</a>
 
 <h3>Built using:</h3>
 » Convex <br>
@@ -26,7 +26,7 @@
 </div>
 <br><br>
 
-<h3 align='center'>Files 💾</h3>
+<h3 align='center'>Files 📁</h3>
 <div align='center'>
   <img src='./readme/files.png'/>
 </div>
