@@ -3,7 +3,7 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "https://descriptive-starling-943.convex.cloud",
+        hostname: "descriptive-starling-943.convex.cloud",
       },
     ],
   },
