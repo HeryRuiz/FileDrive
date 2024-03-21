@@ -28,7 +28,7 @@
 
 <h3 align='center'>Files 💾</h3>
 <div align='center'>
-  <img src='./readme/login.png'/>
+  <img src='./readme/files.png'/>
 </div>
 <br><br>
 <h3 align='center'>Trash 🗑️</h3>
