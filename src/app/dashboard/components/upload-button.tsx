@@ -87,7 +87,6 @@ export function UploadButton() {
       setIsFileDialogOpen(false);
 
       toast({
-        variant: "success",
         title: "File Uploaded",
         description: "File successfully uploaded!",
       });

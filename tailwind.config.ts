@@ -28,9 +28,9 @@ const config = {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
-        success: {
-          DEFAULT: "hsl(var(--success))",
-          foreground: "hsl(var(--success-foreground))",
+        successfull: {
+          DEFAULT: "rgb(124,252,0)",
+          foreground: "rgb(124,252,0)", 
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
