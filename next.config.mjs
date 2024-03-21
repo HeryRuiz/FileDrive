@@ -1,3 +1,4 @@
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -6,7 +7,10 @@ const nextConfig = {
         hostname: "descriptive-starling-943.convex.cloud",
       },
     ],
+    domains: ["www.gravatar.com"],
+    formats: ["image/avif", "image/webp"],
   },
+  swcMinify: false,
 };
 
-export default nextConfig;
+module.exports = nextConfig;
