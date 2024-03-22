@@ -9,7 +9,7 @@ import { Footer } from "./footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "File Drive",
+  title: "File Drive | Secure Storing",
   description: "File Drive secure and safe file saving",
 };
 
